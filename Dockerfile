@@ -6,7 +6,7 @@ RUN apk update \
 && apk add --no-cache python \
     python-dev gcc make libc-dev \
     py-pip libffi-dev openssl-dev \
-&& pip install webssh -i https://pypi.douban.com/simple
+&& pip install webssh
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
