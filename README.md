@@ -3,7 +3,7 @@ WebSSH is a simple web project which support login linux server with explorer.
 
 # Information
 
-1.git clone https://github.com/ 
+1.git clone https://github.com/GiponNG/docker-webssh.git
 
 2.cd docker-webssh && docker built -t gipon/webssh . 
 
@@ -11,3 +11,10 @@ WebSSH is a simple web project which support login linux server with explorer.
 
 # Preview
 
+Login:
+
+![login](https://github.com/GiponNG/docker-webssh/blob/master/login.PNG)
+
+SSH:
+
+![ssh](https://github.com/GiponNG/docker-webssh/blob/master/ssh.PNG)
